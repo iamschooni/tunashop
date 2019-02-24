@@ -1,0 +1,289 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	width: 100%;
+	min-width: 300px;
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	color: black;
+	background: white;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+#appStoreBadge {
+	width: 240px;
+}
+
+.responsive {
+	width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+	.responsive {
+		width: 50%;
+	}
+}
+
+.sep {
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 2px;
+	margin: 15px 0;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+@media only screen and (min-width: 767px) {
+	.sep {
+		margin-top: 0;
+	}
+}
+
+.primary-btn {
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	font-size: 17px;
+	font-weight: 600;
+	background: #0C84FB;
+}
+
+#btn-text {
+	color: white;
+}
+
+.primary-btn:hover {
+	transition: all 0.1s ease-in-out;
+	background: #4258FB;
+}
+
+.container {
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+@media only screen and (min-width: 767px) {
+	.container {
+		padding: 35px;
+	}
+}
+
+.intro-container {
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+	.intro-container {
+		float: left;
+		width: 42%;
+		margin-bottom: 0;
+		text-align: left;
+	}
+}
+
+.app-store-btn::before {
+	padding-right: 8px;
+	content: '';
+	font-size: 16px;
+	color: white;
+}
+
+
+.app-icon {
+	text-align: center;
+	margin: 0 auto;
+}
+.app-icon img {
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.app-icon h1 {
+	margin-top: 5px;
+	font-size: 28px;
+	color: #F23F5E
+}
+
+.app-icon p {
+	font-size: 24px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+@media only screen and (min-width: 767px) {
+	.app-icon {
+		margin: 0;
+	}
+
+	.app-icon p {
+		margin-left: 2px;
+	}
+}
+
+.intro {
+	max-width: 300px;
+	margin-top: 13%;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+
+@media only screen and (min-width: 767px) {
+	.intro {
+		max-width: 100%;
+		margin-top: 28%;
+		margin-bottom: 40px;
+	}
+}
+
+.intro h1 {
+	font-size: 27px;
+	margin-bottom: 30px;
+}
+
+
+.intro h3 span {
+	padding: 4px;
+	color: white;
+	border: 1px solid clear;
+    border-radius: 7px;
+}
+
+#me {
+	text-decoration: underline;
+}
+
+
+#iphone-containers {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 580px) {
+	.intro h2 {
+		font-size: 24px;
+	}
+}
+
+.iphone {
+	position: relative;
+	max-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 767px) {
+	.iphone {
+		float: right;
+		width: 100%;
+		max-width: 42%;
+		height: 100%;
+		text-align: right;
+	}
+}
+
+.iphone-screenshot {
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+	width: 86.5%;
+	height: 0;
+	margin: 0 auto;
+	padding-bottom: 182%;
+}
+
+@media only screen and (min-width: 767px) {
+	.iphone-screenshot {
+		z-index: 1;
+		width: 87%;
+	}
+}
+
+.iphone-screenshot img {
+	position: absolute;
+	top: 13.88%;
+	left: 0;
+}
+
+.iphone-mask {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.footer {
+	margin-bottom: 10px;
+}
+
+.footer p {
+	opacity: 0.7;
+}
+
+.credit {
+	float: left;
+}
+
+.credit a {
+	opacity: 1;
+}
